@@ -1,5 +1,5 @@
 import CarController from "./components/Car/CarController.js";
-import JobController from "./components/Jobs/JobController.js";
+import JobController from "./components/Job/JobController.js";
 
 
 
@@ -7,6 +7,7 @@ class App {
       constructor() {
             this.controllers = {
                   CarController: new CarController(),
+                  JobController: new JobController(),
             }
       }
 }

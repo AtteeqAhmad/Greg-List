@@ -1,5 +1,5 @@
 import JobService from "./JobService.js";
-import Car from "../../models/Car.js";
+import Job from "../../models/Car.js";
 import Job from "../../models/jobs.js";
 
 let _jobService = new JobService()
